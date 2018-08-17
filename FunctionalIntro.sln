@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpLib", "CSharpLib\CSharpLib.csproj", "{5C5FE9C6-95DB-4FDC-B283-790088904F99}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharpLib", "FSharpLib\FSharpLib.fsproj", "{759A7F00-97C3-418F-84EC-F3ED680B66BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5C5FE9C6-95DB-4FDC-B283-790088904F99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C5FE9C6-95DB-4FDC-B283-790088904F99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C5FE9C6-95DB-4FDC-B283-790088904F99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C5FE9C6-95DB-4FDC-B283-790088904F99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{759A7F00-97C3-418F-84EC-F3ED680B66BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{759A7F00-97C3-418F-84EC-F3ED680B66BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{759A7F00-97C3-418F-84EC-F3ED680B66BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{759A7F00-97C3-418F-84EC-F3ED680B66BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4683B9F6-2E11-440C-8A35-FAE79544265C}
+	EndGlobalSection
+EndGlobal
