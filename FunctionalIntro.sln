@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpLib", "CSharpLib\CSha
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharpLib", "FSharpLib\FSharpLib.fsproj", "{759A7F00-97C3-418F-84EC-F3ED680B66BB}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharpXUnitTests", "FSharpXUnitTests\FSharpXUnitTests.fsproj", "{BF742440-A24C-4716-B60A-7F465230167C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{759A7F00-97C3-418F-84EC-F3ED680B66BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{759A7F00-97C3-418F-84EC-F3ED680B66BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{759A7F00-97C3-418F-84EC-F3ED680B66BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF742440-A24C-4716-B60A-7F465230167C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF742440-A24C-4716-B60A-7F465230167C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF742440-A24C-4716-B60A-7F465230167C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF742440-A24C-4716-B60A-7F465230167C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

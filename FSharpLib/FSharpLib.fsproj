@@ -1,19 +1,13 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
-
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
-
   <ItemGroup>
-    <Content Include="Samples\Yr.xml" />
+    <Content Include="../Samples/Yr.xml" />
     <Compile Include="YrWeather.fs" />
     <Compile Include="Library.fs" />
   </ItemGroup>
-
-  <ItemGroup />
-
   <ItemGroup>
     <PackageReference Include="FSharp.Data" Version="3.0.0-beta4" />
   </ItemGroup>
-
 </Project>
