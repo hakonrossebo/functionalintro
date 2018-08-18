@@ -8,5 +8,5 @@ module Yr =
 
     let GetForecastKristiansand() =
             YrForecast.Load("http://www.yr.no/place/Norway/Vest-Agder/Kristiansand/Kristiansand/forecast.xml")
-            |> fun x -> x.Sun.Rise.Hour
+            |> fun x -> x.Sun.Set.Hour
 
