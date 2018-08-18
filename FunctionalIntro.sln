@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpLib", "CSharpLib\CSharpLib.csproj", "{5C5FE9C6-95DB-4FDC-B283-790088904F99}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpLib", "src\CSharpLib\CSharpLib.csproj", "{5C5FE9C6-95DB-4FDC-B283-790088904F99}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharpLib", "FSharpLib\FSharpLib.fsproj", "{759A7F00-97C3-418F-84EC-F3ED680B66BB}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharpLib", "src\FSharpLib\FSharpLib.fsproj", "{759A7F00-97C3-418F-84EC-F3ED680B66BB}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharpXUnitTests", "FSharpXUnitTests\FSharpXUnitTests.fsproj", "{BF742440-A24C-4716-B60A-7F465230167C}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharpXUnitTests", "tests\FSharpXUnitTests\FSharpXUnitTests.fsproj", "{BF742440-A24C-4716-B60A-7F465230167C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

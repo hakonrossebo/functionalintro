@@ -3,7 +3,7 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="..\FSharpLib\FSharpLib.fsproj">
+    <ProjectReference Include="..\..\src\FSharpLib\FSharpLib.fsproj">
       <Name>FSharpLib.fsproj</Name>
     </ProjectReference>
   </ItemGroup>

@@ -3,7 +3,7 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="../Samples/Yr.xml" />
+    <Content Include="../../Samples/Yr.xml" />
     <Compile Include="YrWeather.fs" />
     <Compile Include="Library.fs" />
   </ItemGroup>
